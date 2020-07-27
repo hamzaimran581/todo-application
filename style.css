@@ -1,0 +1,91 @@
+.main{
+    width: 50%;
+    height: 600px ;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 13px;
+    text-align: center;
+    overflow: scroll;    
+}
+body{
+    background-image: url(9.jpg);
+}
+.input{
+    width: 50%;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 100%;
+
+}
+.save{
+    font-size: 100%;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+.list{
+    font-size: 200%;
+    
+}
+.del{
+    line-height: 10px;
+    padding-top: 15px;
+    padding-bottom:12px;
+    margin-left: 5%;
+    width: 20%;
+    cursor: pointer;
+    text-align: center;
+}
+.edit{
+    line-height: 10px;
+    padding-top: 15px;
+    padding-bottom:12px;
+    width: 20%;
+    margin-left: 3%;
+    cursor: pointer;
+    
+}
+.del1{
+    line-height: 10px;
+    padding-top: 15px;
+    padding-bottom:12px;
+    margin-left: 5%;
+    width: 20%;
+    cursor: pointer;
+    text-align: center;
+}
+
+@media screen and (max-width: 1125px) {
+.main{
+    width: 70%;
+}
+}
+@media screen and (max-width: 880px) {
+    .main{
+        width: 85%;
+    }
+    }
+
+    @media screen and (max-width: 735px) {
+    .input{
+        width: 40%;
+    }
+    .save{
+    padding: 15px 30px;
+
+    }
+    .del{
+    padding: 15px 30px;
+
+    }
+    }
+    @media screen and (max-width: 520px) {
+       .main{width: 95%;}
+       .save{
+        padding: 15px 15px;
+    
+        }
+        .del{
+        padding: 15px 15px;
+    
+        }
+    }
